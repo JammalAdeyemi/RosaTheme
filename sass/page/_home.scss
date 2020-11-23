@@ -1,0 +1,206 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url("/images/hero.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sub-headline{
+    font-size: 8.5rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 100;
+    line-height: .4;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
+
+}
+.first-letter{
+    text-transform: uppercase;
+    font-size: 10.3rem;
+}
+.headline{
+    color: #fff;
+    font-size: 3.7rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    margin-right: -0.5rem;
+    animation: scale .5s forwards;
+    
+
+    &-description h5{
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin-bottom: 1.2rem;
+        letter-spacing: 3px;
+        margin-right: -3px;
+    }
+
+    &-dark{
+        color: var(--main-font-color-dark);
+        letter-spacing: .7rem;
+        margin-right: -.7rem;
+    }
+}
+.separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    max-width: 8.4rem;
+    height: 0.25rem;
+    background-color: #fff;
+    position: relative;
+    opacity: 0;
+    animation: grow 2s forwards;
+    animation-delay: .9s;
+
+    &-right::before,
+    &-left::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: .6rem solid transparent;
+        opacity: 0;
+        animation: grow .5s forwards;
+        animation-delay: 1.2s;
+    }
+    &-right::before{
+        border-right-color: #fff;
+        right: 0;
+    }
+    &-left::before{
+        border-left-color: #fff;
+        left: 0;
+    }
+}
+.asterisk{
+    font-size: 1.2rem;
+    color: var(--secondary-font-color);
+    margin: 0 1.6rem;
+    opacity: 0;
+    animation: spin .5s forwards;
+    animation-delay: .7s;
+}
+
+// Discover Our Story
+.global-headline{
+    text-align: center;
+    margin-top: 3.9rem;
+
+    & .asterisk {
+        color: var(--body-font-color);
+        margin: 2.4rem 0;
+    }
+    & .sub-headline{
+        letter-spacing: -1px;
+        line-height: .42;
+    }
+}
+.discover-our-story .global-headline {
+    margin-top: 6.9rem;
+}
+.restaurant-info{
+    text-align: center;
+}
+.restaurant-description{
+    margin-bottom: 3rem;
+
+    & p{
+        line-height: 1.6;
+        margin-bottom: 2.4rem;
+    }
+}
+.single-animation{
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1.5s;
+}
+
+// Tasteful Recipes
+.tasteful-recipes{
+    background: url("/images/tasteful-recipes.jpg") center no-repeat;
+    background-size: cover;
+}
+.between{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+// Discover our menu 
+.image-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+.discover-our-menu  .restaurant-description{
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+// The perfect blend
+.perfect-blend{
+    background: url("/images/perfect-blend.jpg") center no-repeat;
+    background-size: cover;
+}
+
+// Media Queries
+@media screen and (min-width: 900px){
+    .sub-headline{
+        font-size: 10rem;
+    }
+    .first-letter{
+        font-size: 12.2rem;
+    }
+    .headline{
+        font-size: 4.7rem;
+        letter-spacing: .8rem;
+    }
+    .line{
+        max-width: 11.4rem;
+    }
+    .restaurant-info{
+        display: flex;
+        align-items: center;
+
+        & > div{
+            flex: 1;
+        }
+    }
+    .padding-right{
+        padding-right: 7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

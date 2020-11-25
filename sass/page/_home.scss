@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background: url("/images/hero.jpg") center no-repeat;
+    background: url("../images/hero.jpg") center no-repeat fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -38,8 +38,7 @@
         color: #fff;
         font-size: 1.4rem;
         font-weight: 100;
-        text-transform: uppercase;
-        margin-bottom: 1.2rem;
+        margin: 1.2rem 0;
         letter-spacing: 3px;
         margin-right: -3px;
     }
@@ -130,7 +129,7 @@
 
 // Tasteful Recipes
 .tasteful-recipes{
-    background: url("/images/tasteful-recipes.jpg") center no-repeat;
+    background: url("../images/tasteful-recipes.jpg") center no-repeat;
     background-size: cover;
 }
 .between{
@@ -151,7 +150,7 @@
 }
 // The perfect blend
 .perfect-blend{
-    background: url("/images/perfect-blend.jpg") center no-repeat;
+    background: url("../images/perfect-blend.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -182,25 +181,3 @@
         padding-right: 7rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

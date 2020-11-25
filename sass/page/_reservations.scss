@@ -1,0 +1,187 @@
+.make-online-reservation {
+	text-align: center;
+
+	h5 {
+		margin-bottom: 1rem;
+		font-size: 2rem;
+		font-weight: 100;
+		letter-spacing: 0.3rem;
+		color: var(--main-font-color-dark);
+	}
+
+	h6 {
+		font-size: 1.2rem;
+		font-weight: 100;
+		color: gray;
+	}
+
+	.flex-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: wrap;
+		margin: 4rem 0 0;
+	
+
+		.column {
+			flex: 20%;
+			margin: 0 2.5%;
+
+			i {
+				font-size: 2rem;
+				margin-right: 5%;
+			}
+
+			input,
+			select {
+				width: 20rem;
+				height: 4rem;
+				padding: 0 2%;
+				border: 1px solid gray;
+				border-radius: 5px;
+				font-size: 1.8rem;
+				cursor: pointer;
+			}
+
+			input:hover,
+			select:hover {
+				outline: 1px solid var(--secondary-font-color);
+			}
+		}
+	}
+
+	button {
+		width: 20rem;
+		height: 4rem;
+		margin: 5% auto 0;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		background-color: var(--main-font-color-dark);
+		font-size: 1.8rem;
+		cursor: pointer;
+		transition: 0.3s ease-in-out;
+	}
+
+	button:hover {
+		background-color: var(--secondary-font-color);
+	}
+}
+
+hr.horizontal-divider-after-reservation {
+	margin: 0 5%;
+}
+
+
+.reserve-info {
+	padding: 5% 0;
+
+	.flex-container {
+		display: flex;
+
+
+		.column {
+			flex: 50%;
+			padding: 0 5%;
+
+			h3 {
+				margin-bottom: 5%;
+				color: black;
+				font-size: 2rem;
+				font-weight: 100;
+				letter-spacing: 0.3rem;
+			}
+
+			p {
+				margin: 5% 0 0;
+				line-height: 3rem;
+			}
+		}
+	}
+}
+
+section.carousel {
+	height: 40rem;
+	margin: 0 1%;
+	background: url("../images/perfect-blend.jpg") center no-repeat fixed;
+}
+
+
+.private-mezzanine {
+
+	.restaurant-description {
+		b {
+			font-size: 1.7rem;
+			font-weight: 700;
+		}
+	}
+
+	div.image {
+		img {
+			width: 100%;
+			height:100%;
+		}
+	}
+}
+
+.dining-crown {
+
+	.restaurant-description {
+		b {
+			font-size: 1.7rem;
+			font-weight: 700;
+		}
+	}
+}
+
+section.champagne {
+	margin: 0 5% 5%;
+	padding: 2.5%;
+	color: white;
+	background-color: var(--secondary-font-color);
+	text-align: center;
+
+	h3 {
+		margin-bottom: 2.5%;
+		font-size: 2rem;
+		font-weight: 100;
+		letter-spacing: 0.3rem;
+	}
+
+	p {
+		margin-top: 1%;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.make-online-reservation {
+
+		.flex-container {
+			display: block;
+			margin: 0;
+
+			.column {
+				margin: 5% 0;
+			}
+		}
+	}
+
+	.reserve-info {
+		.flex-container {
+			display: block;
+
+			.column {
+				margin: 10% 0;
+
+				h3 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+
+	section.champagne {
+		margin-bottom: 20%;
+	}
+}

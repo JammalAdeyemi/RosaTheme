@@ -36,3 +36,8 @@ sr.reveal('.animate-bottom', {
     distance: '25rem',
     delay: 600
 });
+
+
+
+// current date in the reservations page
+document.getElementById("date").valueAsDate = new Date()

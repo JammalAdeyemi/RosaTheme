@@ -134,7 +134,7 @@ section.carousel {
 	}
 }
 
-section.champange {
+section.champagne {
 	margin: 0 5% 5%;
 	padding: 2.5%;
 	color: white;
@@ -150,5 +150,38 @@ section.champange {
 
 	p {
 		margin-top: 1%;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.make-online-reservation {
+
+		.flex-container {
+			display: block;
+			margin: 0;
+
+			.column {
+				margin: 5% 0;
+			}
+		}
+	}
+
+	.reserve-info {
+		.flex-container {
+			display: block;
+
+			.column {
+				margin: 10% 0;
+
+				h3 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+
+	section.champagne {
+		margin-bottom: 20%;
 	}
 }

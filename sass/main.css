@@ -916,21 +916,45 @@ section.carousel {
   font-weight: 700;
 }
 
-section.champange {
+section.champagne {
   margin: 0 5% 5%;
   padding: 2.5%;
   color: white;
   background-color: var(--secondary-font-color);
   text-align: center;
 }
-section.champange h3 {
+section.champagne h3 {
   margin-bottom: 2.5%;
   font-size: 2rem;
   font-weight: 100;
   letter-spacing: 0.3rem;
 }
-section.champange p {
+section.champagne p {
   margin-top: 1%;
+}
+
+@media (max-width: 800px) {
+  .make-online-reservation .flex-container {
+    display: block;
+    margin: 0;
+  }
+  .make-online-reservation .flex-container .column {
+    margin: 5% 0;
+  }
+
+  .reserve-info .flex-container {
+    display: block;
+  }
+  .reserve-info .flex-container .column {
+    margin: 10% 0;
+  }
+  .reserve-info .flex-container .column h3 {
+    font-size: 1.8rem;
+  }
+
+  section.champagne {
+    margin-bottom: 20%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

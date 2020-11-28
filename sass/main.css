@@ -956,5 +956,95 @@ section.champagne p {
     margin-bottom: 20%;
   }
 }
+.hero {
+  background: url("../images/perfect-blend.jpg") fixed;
+}
+
+.get-in-touch {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+.get-in-touch .flex-container {
+  display: flex;
+  flex-flow: wrap;
+}
+.get-in-touch .flex-container .column {
+  flex: 50%;
+  padding: 0 2.5%;
+  color: black;
+}
+.get-in-touch .flex-container .left-column h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2%;
+}
+.get-in-touch .flex-container .left-column p {
+  margin: 3% 0;
+  font-size: 1.8rem;
+}
+.get-in-touch .flex-container .left-column a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+  transition: 0.3s ease-in-out;
+}
+.get-in-touch .flex-container .left-column a i {
+  font-size: 2rem;
+}
+.get-in-touch .flex-container .left-column a:hover {
+  background-color: var(--secondary-font-color);
+}
+.get-in-touch .flex-container .right-column label {
+  display: block;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: black;
+}
+.get-in-touch .flex-container .right-column input,
+.get-in-touch .flex-container .right-column textarea {
+  width: 100%;
+  height: 3.8rem;
+  margin: 1% 0 5%;
+  padding: 0 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.get-in-touch .flex-container .right-column textarea {
+  height: 20rem;
+  padding-top: 5%;
+}
+.get-in-touch .flex-container .right-column input:hover,
+.get-in-touch .flex-container .right-column textarea:hover {
+  outline: 1px solid var(--secondary-font-color);
+}
+.get-in-touch .flex-container .right-column button {
+  width: 20%;
+  height: 3.8rem;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.get-in-touch .flex-container .right-column button:hover {
+  background-color: var(--secondary-font-color);
+}
+
+@media (max-width: 800px) {
+  .get-in-touch .flex-container {
+    display: block;
+  }
+  .get-in-touch .flex-container .column {
+    margin-bottom: 10%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 # RosaTheme
 An imitation of the popular Wordpress theme [Rosa][rosa]
 
-This imitation is made with pure HTML, SASS and minimal Javascript
+This website is made with pure HTML, SASS and minimal Javascript
 
 Made by [Jammal][jammal] and [Bravo][bravo]
 

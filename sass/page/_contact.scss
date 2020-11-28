@@ -97,6 +97,12 @@
 	}
 }
 
+.map {
+	height: 40rem;
+	background: url("../images/map.png") fixed;
+}
+
+
 @media (max-width: 800px) {
 	.get-in-touch {
 		.flex-container {

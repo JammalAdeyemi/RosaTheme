@@ -1038,6 +1038,11 @@ section.champagne p {
   background-color: var(--secondary-font-color);
 }
 
+.map {
+  height: 40rem;
+  background: url("../images/map.png") fixed;
+}
+
 @media (max-width: 800px) {
   .get-in-touch .flex-container {
     display: block;

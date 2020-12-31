@@ -570,7 +570,7 @@ header {
 }
 
 .perfect-blend {
-  background: url("../images/perfect-blend.jpg") center no-repeat;
+  background: url("../images/hero.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -810,6 +810,10 @@ hr, sepators {
     top: 40px;
   }
 }
+.reservations-page-hero {
+  background: url("../images/reservations-contact-pages-hero.jpg") center no-repeat fixed;
+}
+
 .make-online-reservation {
   text-align: center;
 }
@@ -956,8 +960,8 @@ section.champagne p {
     margin-bottom: 20%;
   }
 }
-.hero {
-  background: url("../images/perfect-blend.jpg") fixed;
+.contact-page-hero {
+  background: url("../images/reservations-contact-pages-hero.jpg") center no-repeat fixed;
 }
 
 .get-in-touch {
